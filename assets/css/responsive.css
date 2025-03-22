@@ -1,0 +1,77 @@
+/* Responsive Design */
+
+@media (max-width: 1200px) {
+    .content-col__18 {
+        width: 100%; 
+    }
+    .content-col__14 {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media (max-width: 992px) {
+    #header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .social-list ul {
+        gap: 20px;
+    }
+    .slider-title {
+        font-size: 40px;
+    }
+    .slider-text {
+        left: 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-row {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+    .content-container1,
+    .content-container2,
+    .content-container3 {
+        margin: 10px 0;
+        padding: 12px;
+    }
+    .content-center h3 {
+        font-size: 20px;
+    }
+    .content-center h5 {
+        font-size: 16px;
+    }
+    .content-left, .content-right1 {
+        float: none;
+        text-align: center;
+    }
+    .content-col__18, .content-col__14 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .blog-title {
+        font-size: 28px;
+    }
+    .blog-subtitle {
+        font-size: 14px;
+    }
+    .slider-title {
+        font-size: 24px;
+    }
+    .subscribe-btn {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+    .content-image {
+        padding: 8px 0;
+    }
+    .content-left_like-btn,
+    .content-right1_replies-btn {
+        padding: 6px 12px;
+    }
+}
